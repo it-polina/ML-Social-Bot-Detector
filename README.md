@@ -18,11 +18,8 @@ Python-инструмент для обнаружения ботов в соци
    cd social-media-bot-detection
    ```
 2. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   ```
    Основные зависимости: vk-api, pandas, numpy, scikit-learn, tensorflow, keras
-3. Настройте доступ к VK API
+3. Настройте доступ к VK API:
    Получите токен доступа ВКонтакте
    Замените строку в функции generateVKAuthToken() на ваш токен
 ## 🎯 Использование
